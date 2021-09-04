@@ -1,4 +1,4 @@
-![Electron-PHP Banner](https://github.com/padrio/electron-php/blob/master/.github/banner.png?raw=true)
+![Electron-PHP Banner](https://raw.githubusercontent.com/Padrio/electron-php/develop/.github/banner.png)
 # electron-php
 Build ~~cross-platform~~ (coming soon) desktop applications using PHP as backend and electron for rendering.
 Currently, we only support Windows, but we already work on support for mac and linux. 
