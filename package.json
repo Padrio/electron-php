@@ -1,0 +1,30 @@
+{
+  "name": "electron-php",
+  "version": "1.0.0",
+  "description": "Develop desktop apps using php as backend for electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --no-asar --icon=icons/logo.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . electron-tutorial-app --overwrite --no-asar --platform=win32 --arch=ia32 --icon=icons/logo.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
+    "package-linux": "electron-packager . electron-tutorial-app --overwrite --no-asar --platform=linux --arch=x64 --icon=icons/logo.png --prune=true --out=release-builds"
+  },
+  "repository": "https://github.com/padrio/electronjs-php",
+  "keywords": [
+    "Electron",
+    "desktop application",
+    "PHP",
+    "cross-platform",
+    "padrio"
+  ],
+  "author": "Pascal Krason",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^14.0",
+    "electron-packager": "^15.3"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "php-server-manager": "^1.3"
+  }
+}

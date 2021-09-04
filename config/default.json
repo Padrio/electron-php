@@ -1,0 +1,30 @@
+{
+  "Electron": {
+    "Width": 800,
+    "Height": 600
+  },
+  "PHP": {
+    "Server": {
+      "bind": "127.0.0.1",
+      "port": 5984
+    },
+    "Runtime": {
+      "Version": "7.1",
+      "Env": null,
+      "Binary": null,
+      "Workspace": {
+        "Directory": "./source/",
+        "Script": "index.php"
+      },
+      "Configuration": {
+        "DisplayErrors": true,
+        "ExposePHP": true,
+        "DatetimeTimezone": "Europe/Berlin"
+      },
+      "Extensions": [
+        "ext-pdo",
+        "ext-mb"
+      ]
+    }
+  }
+}
